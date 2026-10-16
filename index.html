@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f6">
+  <title>Kejutan Kecil untuk Yunaa alias Nabila Yunianti 💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts" aria-hidden="true">
+    <span>♡</span><span>♥</span><span>♡</span><span>♥</span>
+    <span>♡</span><span>♥</span><span>♡</span><span>♥</span>
+  </div>
+
+  <main class="card">
+    <div class="sticker" aria-hidden="true">🐻💗</div>
+
+    <section id="intro" class="screen">
+      <p class="eyebrow">✦ ada sesuatu buat kamu ✦</p>
+      <h1>Hai, <span id="partnerName">Sayang</span>! 💗</h1>
+      <p class="description">
+        Aku punya misi penting buat kamu.<br>
+        Tenang, bukan disuruh mengerjakan tugas kok. WKWK.
+      </p>
+      <button id="startBtn" class="button">Mulai misinya ✨</button>
+      <p class="tiny">Peringatan: berpotensi senyum-senyum sendiri.</p>
+    </section>
+
+    <section id="quiz" class="screen hidden">
+      <div class="progress-row">
+        <span id="progressText">Pertanyaan 1 dari 3</span>
+        <div class="progress-track"><div id="progressFill"></div></div>
+      </div>
+      <h2 id="questionText">Pertanyaan penting!</h2>
+      <p id="questionHint" class="description">Pilih jawabanmu dengan jujur, ya.</p>
+      <div id="options" class="options"></div>
+      <p id="feedback" class="feedback" aria-live="polite"></p>
+      <button id="nextBtn" class="button hidden">Lanjut 💌</button>
+    </section>
+
+    <section id="reveal" class="screen hidden">
+      <div class="envelope" aria-hidden="true">💌</div>
+      <p class="eyebrow">✦ misi hampir selesai ✦</p>
+      <h2>Hadiah rahasia!</h2>
+      <p class="description">
+        Kamu berhasil sampai di sini.<br>
+        Tekan tombol ini untuk membuka pesan rahasia.
+      </p>
+      <button id="revealBtn" class="button">Buka pesannya 🥺</button>
+    </section>
+
+    <section id="secret" class="screen hidden">
+      <div class="envelope big" aria-hidden="true">💖</div>
+      <p class="eyebrow">✦ khusus untuk kamu ✦</p>
+      <h2>Pesan Rahasia</h2>
+      <div class="letter">
+        <p>Hai, sayangku yunaa. 💗</p>
+        <p>
+          Kalau kamu membaca ini, berarti kamu sudah berhasil melewati
+          tes paling tidak penting tetapi paling niat sedunia.
+        </p>
+        <p>
+          Makasih sudah hadir di hidupku. Aku senang bisa mengenal kamu,
+          berbagi cerita, tertawa karena hal receh, dan belajar memahami
+          kamu sedikit demi sedikit.
+        </p>
+        <p>
+          Aku nggak bisa janji semuanya akan selalu sempurna, tapi aku
+          ingin kita terus berusaha saling mendengarkan, jujur, dan
+          menjaga satu sama lain.
+        </p>
+        <p class="signature">Aku sayang kamu. Jangan geer...<br>
+          <strong>bohong, geer aja sedikit 😚💗</strong>
+        </p>
+      </div>
+      <button id="restartBtn" class="button secondary">Ulangi kejutan ↻</button>
+    </section>
+
+    <footer>dibuat dengan niat, sedikit kode, dan banyak rasa sayang ♡</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
